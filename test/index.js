@@ -15,7 +15,14 @@ describe("isPalindrome", () => {
   it("returns false for 'robot'", () => {
     expect(isPalindrome("robot")).to.be.false;
   });
-  it("returns false for 'ab'", () => {
-    expect(isPalindrome("ab")).to.be.false;
+  it("returns true for 'mom'", () => {
+    expect(isPalindrome("mom")).to.be.true;
   });
+  it("returns false for 'hi'", () => {
+    expect(isPalindrome("hi")).to.be.false;
+  });
+  it("returns false for 'hello'", () => {
+    expect(isPalindrome("hello")).to.be.false;
+  });
+
 });
